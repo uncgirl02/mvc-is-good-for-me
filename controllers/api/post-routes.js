@@ -4,7 +4,7 @@ const { Post, User, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // get all users
-router.get('/', (req, res) => {
+router.get('/users', (req, res) => {
   Post.findAll({
     attributes: [
       'id',
@@ -73,7 +73,7 @@ router.get('/:id', (req, res) => {
     });
 });
 
-router.post('/', withAuth, (req, res) => {
+router.post('/user', withAuth, (req, res) => {
   // expects {title: 'Taskmaster goes public!', post_content: 'https://taskmaster.com/press', user_id: 1}
   Post.create({
     title: req.body.title,
