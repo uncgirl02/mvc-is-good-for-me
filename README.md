@@ -22,7 +22,7 @@ Run "npm install" to install the required packages.
 
 ## Usage
 
-Run "npm start" from the command line and visit http://localhost:3002 or used the deployed site on Heroku at https://arcane-hollows-83949.herokuapp.com/ 
+Run "npm start" from the command line and visit http://localhost:3002 or used the deployed site on Heroku at https://limitless-scrubland-35257.herokuapp.com/
 
 ![MVC Screenshot](./assets/images/screenshot1.png)
 
