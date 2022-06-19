@@ -6,7 +6,7 @@
   <form class="edit-post-form">
     <div>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{format_url post.post_content}})</span>
+      <span>({{post.post_content}})</span>
     </div>
     <div>
       by you on {{format_date post.created_at}}
@@ -24,11 +24,13 @@
   </div>
 
   <div>
-    <button type="submit">add comment</button>
+    <button type="submit">Add Comment</button>
   </div>
 </form>
 
+<li>
 {{> comments post.comments}}
+</li>
 
 <script src="/javascript/edit-post.js"></script>
 <script src="/javascript/delete-post.js"></script>

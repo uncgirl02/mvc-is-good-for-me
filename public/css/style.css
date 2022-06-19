@@ -85,6 +85,10 @@
   header h1 {
     font-size: 3em;
   }
+
+  .dashboard-heading-2 {
+    margin-top: 60px;
+  }
   
   main {
     flex: 1;
@@ -127,6 +131,10 @@
     font-size: 90%;
     color: #7d7d7d;
   }
+
+  .post-content {
+    font-size: 25px;
+  }
   
   .edit-link {
     display: block;
@@ -151,6 +159,10 @@
     margin-bottom: .5%;
     opacity: .6;
   }
+
+  .user-posts {
+    padding-bottom: 20px;
+  }
   
   .new-post-form input {
     width: 300px;
@@ -159,7 +171,25 @@
   .edit-post-form {
     margin-bottom: 5%;
   }
-  
+
+  .edit-post-btn {
+    background-color: #225ca3;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .edit-post-btn:hover {
+    background-color: #3486eb;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
   footer {
     border-top: 1px solid #ccc;
     display: flex;

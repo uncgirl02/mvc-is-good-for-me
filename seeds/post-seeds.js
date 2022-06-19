@@ -2,7 +2,7 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
+    title: 'This is the ttle of the blog post.',
     post_content: 'This is where the post content goes',
     user_id: 10
   },
