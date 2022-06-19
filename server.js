@@ -3,9 +3,9 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 
-var distDir = __dirname + "/dist/";
+// var distDir = __dirname + "/dist/";
 
-app.use(express.static(distDir));
+// app.use(express.static(distDir));
 
 const app = express();
 const PORT = process.env.PORT || 3002;
